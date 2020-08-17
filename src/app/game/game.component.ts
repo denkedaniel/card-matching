@@ -23,7 +23,6 @@ export class GameComponent implements OnInit {
   tries = 0;
   selectedDeckSize = 0;
   finalCardDeck = [];
-  firstMatch = '';
   foundMatches = 0;
   matches = [];
   triesBestScore;
@@ -86,8 +85,7 @@ export class GameComponent implements OnInit {
       this.flipCount = 1;
       this.matches = [];
       const flipCardInner = document.getElementsByClassName('flip-card-inner');
-      console.log(flipCardInner);
-      Array.prototype.forEach.call(flipCardInner, function (value) {
+      Array.prototype.forEach.call(flipCardInner, (value) => {
         value.classList.remove('open');
         value.classList.remove('disabled');
       });
