@@ -9,16 +9,16 @@ import {ActivatedRoute, Router} from '@angular/router';
 export class GameComponent implements OnInit {
 
   cards = [
-    {title: 'angular', isFlipped: false},
-    {title: 'webpack', isFlipped: false},
-    {title: 'ts', isFlipped: false},
-    {title: 'splendex', isFlipped: false},
-    {title: 'sass', isFlipped: false},
-    {title: 'redux', isFlipped: false},
-    {title: 'react', isFlipped: false},
-    {title: 'postcss', isFlipped: false},
-    {title: 'jenkins', isFlipped: false},
-    {title: 'd3', isFlipped: false}
+    {title: 'angular'},
+    {title: 'webpack'},
+    {title: 'ts'},
+    {title: 'splendex'},
+    {title: 'sass'},
+    {title: 'redux'},
+    {title: 'react'},
+    {title: 'postcss'},
+    {title: 'jenkins'},
+    {title: 'd3'}
   ];
   tries = 0;
   selectedDeckSize = 0;
