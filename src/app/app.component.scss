@@ -1,0 +1,19 @@
+.form-group{
+  display:inline-block;
+  margin:0 10px 0 10px;
+}
+.navbar-nav {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.nav-item{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+@media (max-width:768px) {
+  .navbar-nav {
+    width:700px;
+  }
+}
